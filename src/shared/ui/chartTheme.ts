@@ -1,0 +1,18 @@
+export const CHART_COLOR = {
+  PRIMARY: '#2563eb',
+  PRIMARY_FILL: 'rgba(37, 99, 235, 0.14)',
+  PRIMARY_FILL_SOFT: 'rgba(37, 99, 235, 0.12)',
+  SUCCESS: '#16a34a',
+  WARNING: '#d97706',
+  PURPLE: '#7c3aed',
+  DANGER: '#dc2626',
+} as const
+
+export const SERVICE_LINE_CHART_COLORS = [
+  CHART_COLOR.PRIMARY,
+  CHART_COLOR.SUCCESS,
+  CHART_COLOR.WARNING,
+  CHART_COLOR.PURPLE,
+]
+
+export const LINE_CHART_TENSION = 0.35
